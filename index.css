@@ -1,0 +1,130 @@
+body{
+    background-color: #FFE53B;
+background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+}
+
+
+#header h1{
+    font-size: 5em;
+}
+
+
+form{
+    position: relative;
+    border: 3px solid transparent;
+    width: 60em;
+    height: 50em;
+    background: whitesmoke;
+    left: 12em;
+    bottom: 4em;
+    border-radius: 10px;
+}
+
+#options {
+    padding:0 5em;
+}
+
+
+#details input{
+    padding:1em 5em 0;
+    border: none;
+}
+
+#owe, #owes{
+    float: right;
+    position: relative;
+    bottom: 20em;
+
+}
+
+
+#owe{
+    padding: 3em;
+    bottom: 25em;
+}
+
+
+#owes{
+    padding: 3em;
+    bottom: 25em;
+    right: 2em;
+}
+
+#owe ul, #owes ul {
+
+    text-align: center;
+    padding: 1em;
+    margin: 0;        
+    list-style: none;
+    float: left;  
+}
+
+#owe ul li{
+list-style: circle;
+}
+
+
+#totalowes, #totalowe{
+text-align: right;
+margin-top: 10em;
+}
+
+
+
+/*------------Buttons------*/
+#add {
+    position: relative;
+    left: 30em;
+    top: 20em;
+  }
+
+
+  #view{
+    position: absolute;
+      left: 10em;
+      top: 43.5em;
+      
+  }
+
+  .center {
+    width: 180px;
+    height: 60px;
+    position: absolute;
+    background: #27ae60;
+  }
+  
+  .btn{
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid white;
+    outline: none;
+    transition: 1s ease-in-out;
+  }
+  
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 200;
+    transition: 2s ease-in-out;
+  }
+  
+  .btn:hover {
+    transition: 3s ease-in-out;
+    background: #27ae60DA;
+  }
+  
+  .btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }

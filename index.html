@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <title>Debts/Credits Tracker</title>
+</head>
+<body> 
+    <div id="header">
+        <h1 align="center">Debts/Credits Tracker</h1>
+    </div>
+
+    <form action="#" >
+      <div id="container">
+          <div id="select">
+        <h2>Select Your Option</h2> 
+          <select name="" id="options" >
+            <option value="select">---- Select ---</option> 
+            <option value="debtor">Debts</option> 
+            <option value="creditor">Credits</option> 
+          </select>
+        </div>
+          <div id="details" >
+
+            <h2>Name of Debitor/Creditor</h2> <input type="text" name="name" id="name" placeholder="Enter Name">
+
+            <h2>Item/Quanitity</h2> <input type="text" name="item" id="item" placeholder="Enter Item Item/Quanitity">
+
+            <h2>Amount</h2> <input type="text" name="amount" id="amount" placeholder="Enter Amount">
+
+          </div>
+
+
+          <div id="owe">
+              <ul id="nameOwe">
+                <h2>You Owe</h2>
+              </ul>
+
+              <ul id="itemOwe">
+                <h2>Item/Quantity</h2>
+              </ul>
+
+              <ul id="AmountOwe">
+                <h2>Amount</h2>
+              </ul>
+
+            <div id="totalowe">
+                <h2>Total:$500</h2>
+            </div>
+          </div>
+
+          
+          <div id="owes">
+            <ul id="nameOwes">
+              <h2>Owes You</h2>
+                <li id="Nameowes" > </li>
+            </ul>
+
+            <ul id="itemOwes">
+              <h2>Item/Quantity</h2>
+           <li></li>
+            </ul>
+
+            <ul id="AmountOwes">
+              <h2>Amount</h2>
+           <li></li>
+            </ul>
+        
+            <div id="totalowes">
+                <h2>Total:$500</h2>
+            </div>
+
+        </div>
+
+            <div id="add">
+                <div class="center">
+                  <button class="btn">
+                    <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                      <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                      <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                    </svg>
+                    <span >Add</span>
+                  </button>
+                </div>
+            </div>
+
+
+       
+        <div id="view">
+            <div class="center">
+              <button class="btn">
+                <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                  <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                  <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                </svg>
+                <span >View</span>
+              </button>
+            </div>
+        </div>
+
+           
+
+        </div>
+    </div>
+      </div>
+      
+    </form>
+
+
+</body>
+<script src="app.js"></script>
+</html>
